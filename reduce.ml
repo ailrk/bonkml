@@ -39,5 +39,3 @@ let beta = function
   | _ -> raise Reduce
 
 let reduce = List.fold_right union [delta; beta] (fun _ -> raise Reduce)
-
-
