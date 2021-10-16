@@ -1,5 +1,5 @@
 (library
- (name impl_ml)
+ (name bonkml)
 ;; (modules_without_implementation "eval")
  (modules "reduce"
           "bigstep"
@@ -8,6 +8,7 @@
           "secd"
           "smallstep"
           "test"
-          "unify"
           "krivine"
-          "secd"))
+          "secd"
+          "unify"
+          "infer"))
